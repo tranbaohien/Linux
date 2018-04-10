@@ -1,0 +1,7 @@
+.
+..
+BaiTH1.odt
+.git
+.~lock.BaiTH1.odt#
+NTDM.txt
+testcommit.txt
