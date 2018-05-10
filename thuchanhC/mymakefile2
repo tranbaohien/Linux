@@ -1,0 +1,4 @@
+test-mymath: test-mymath.o libmymath.a
+	gcc -o test-mymath test-mymath.o libmymath.a
+test-mymath.o: test-mymath.c libmymath.h
+	gcc -c test-mymath.c

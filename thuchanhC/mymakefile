@@ -1,0 +1,12 @@
+test-mymath: test-mymath.o giaithua.o tongchan.o tongle.o luythua.o
+	gcc -o test-mymath test-mymath.o giaithua.o tongchan.o tongle.o luythua.o
+test-mymath.o: test-mymath.c libmymath.h
+	gcc -c test-mymath.c
+giaithua.o: giaithua.c
+	gcc -c giaithua.c
+tongchan.o: tongchan.c
+	gcc -c tongchan.c
+tongle.o: tongle.c
+	gcc -c tongle.c
+luythua.o: luythua.c
+	gcc -c luythua.c
